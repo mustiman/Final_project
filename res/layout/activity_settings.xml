@@ -1,0 +1,194 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clickable="false"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/TextView03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/contacts"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <LinearLayout
+        android:id="@+id/contactLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="42dp" >
+
+            <ImageButton
+                android:id="@+id/add1"
+                android:layout_width="49dp"
+                android:layout_height="46dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/addcontact" />
+
+            <TextView
+                android:id="@+id/name1"
+                android:layout_width="fill_parent"
+                android:layout_height="41dp"
+                android:layout_weight="0.24"
+                android:text="Large Text"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="42dp" >
+
+            <ImageButton
+                android:id="@+id/add2"
+                android:layout_width="49dp"
+                android:layout_height="46dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/addcontact" />
+
+            <TextView
+                android:id="@+id/name2"
+                android:layout_width="fill_parent"
+                android:layout_height="41dp"
+                android:layout_weight="0.24"
+                android:text="Large Text"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="42dp" >
+
+            <ImageButton
+                android:id="@+id/add3"
+                android:layout_width="49dp"
+                android:layout_height="46dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/addcontact" />
+
+            <TextView
+                android:id="@+id/name3"
+                android:layout_width="fill_parent"
+                android:layout_height="41dp"
+                android:layout_weight="0.24"
+                android:text="Large Text"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/help_button_settings"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal" >
+
+        <CheckBox
+            android:id="@+id/sirenCheck"
+            android:layout_width="92dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.33"
+            android:text="@string/siren" />
+
+        <CheckBox
+            android:id="@+id/cameraCheck"
+            android:layout_width="92dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.33"
+            android:text="@string/dogs" />
+
+        <CheckBox
+            android:id="@+id/flashCheck"
+            android:layout_width="92dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.33"
+            android:text="@string/flash" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/set_sms"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+    <EditText
+        android:id="@+id/helpsms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+
+
+    <TextView
+        android:id="@+id/TextView04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/set_i_am_fine_sms"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/imfinesms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/set_pass"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+    <EditText
+        android:id="@+id/imfinepass"
+        android:password="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <ImageButton
+        android:id="@+id/back"
+        android:layout_width="107dp"
+        android:layout_height="46dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/ok" />
+
+</LinearLayout>

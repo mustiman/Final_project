@@ -1,0 +1,129 @@
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/blue1"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_weight="0.3"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/ImgPolice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="2.5dp"
+                android:layout_weight="0.33"
+                android:adjustViewBounds="true"
+                android:background="@layout/roundb"
+                android:contentDescription="100"
+                android:scaleType="fitXY"
+                android:src="@drawable/police12" />
+
+            <ImageButton
+                android:id="@+id/ImgAmbulance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="2.5dp"
+                android:layout_marginRight="2.5dp"
+                android:layout_weight="0.33"
+                android:adjustViewBounds="true"
+                android:background="@layout/roundb"
+                android:contentDescription="101"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ambu1" />
+
+            <ImageButton
+                android:id="@+id/ImgFire"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="2.5dp"
+                android:layout_weight="0.33"
+                android:adjustViewBounds="true"
+                android:background="@layout/roundb"
+                android:contentDescription="102"
+                android:scaleType="fitXY"
+                android:src="@drawable/fire_icon" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="134dp"
+            android:layout_weight="0.3"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/ImgSiren"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/siren_icon"
+                android:contentDescription="siren"
+                android:maxWidth="10dp"
+                android:scaleType="fitCenter" />
+
+            <ImageButton
+                android:id="@+id/ImageDogs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="0.33"
+                android:adjustViewBounds="true"
+                android:background="#ff888888"
+                android:contentDescription="dogs"
+                android:maxWidth="10dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/dogs_icon" />
+
+            <ImageButton
+                android:id="@+id/ImgFlash"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="0.33"
+                android:adjustViewBounds="true"
+                android:maxWidth="100dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/flash_icon" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="0.3"
+            android:gravity="bottom"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/fine"
+                android:layout_width="124dp"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="@string/i_am_fine"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/Extras_back"
+                android:layout_width="124dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginTop="50dp"
+                android:text="@android:string/ok" />
+
+        </LinearLayout>
+
+    </LinearLayout>
